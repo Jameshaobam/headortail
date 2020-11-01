@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin toss</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Head or tail guess?</h1>
+      <h2>First Player to get 10 points win!</h2>
+      <div class="players">
+        <p>You Selected: <span class="user-select"></span></p>
+        <p>Computer Selected: <span class="comp-select"></span></p>
+      </div>
+      <div class="winner-result">
+
+      </div>
+      <div class="image"></div>
+      <div class="score">
+        <p>You: <span id="user">0</span></p>
+        <p>Computer: <span id="comp">0</span></p>
+      </div>
+      <h3>Make a selection</h3>
+      <div class="btn-container">
+        <button class="btn head">Head</button>
+        <button class="btn tails">Tails</button>
+      </div>
+      <div class="restart-btn">
+        <button  id="restart">Restart</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
